@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.22621}\viewkind4\uc1 
+\pard\widctlpar\sa160\sl252\slmult1\kerning2\ul\b\f0\fs32 MODUL 10: Ccna - Infrastructure Security And Wan Technologies\ulnone\fs24\par
+\par
+\par
+13- A Cisco Catalyst switch connects to what should be individual user PCs. Each port has the same port security configuration, configured as follows: interface range gigabit Ethernet 0/1 - 24 switchport mode access switchport port-security switchport port-security mac-address sticky Which of the following answers describe the result of the port security configuration created with these commands? (Choose two) \par
+\b0 A. Prevents unknown devices with unknown MAC addresses from sending data through the switch ports. \par
+B. If a user connects a swtch to the cable, prevents multiple devices from sending data through the port. \par
+C. Will allow any one device to connect to each port, and will save that device\rquote s MAC address into the startup-config \par
+D. Will allow any one device to connect to each port, but will not save that device\rquote s MAC address into the startu-config\par
+\b Ans : a and b\par
+\fs36\par
+\fs24 14- What is the Administrtive Distance of internal EIGRP routes? \par
+\b0 A. 170 \par
+B. 90 \par
+C. 20 \par
+D. 1 \par
+E. 110 \par
+F. 120\par
+\b Ans=  B. 90 \par
+\b0 15- When a subnet mask is presented in binary, what do the binary 1s represent? \par
+A. The network portion of an associated address \par
+B. The host portion of the subnet mask \par
+C. The number of wildcard bits in the subnet mask \par
+D. The number of wildcard bits in the address \par
+E. The network portion of the subnet mask \par
+F. The host portion of an asociated address\par
+\b ANS= A. The network portion of an associated address \b0\par
+16- Which switch would STP choose to become the root bridg in the selection process? \par
+A. 32768: 11-22-33-44-55-66 \par
+B. 32768: 22-33-44-55-66-77 \par
+C. 32769: 11-22-33-44-55-65 \par
+D. 32769: 22-33-44-55-66-78\par
+\b Ans= A. 32768: 11-22-33-44-55-66 \par
+17- Which of the following devices is used by the service provider to provide WAN services? \par
+\b0 A. Router \par
+B. Core router \par
+C. WAN switch \par
+
+\pard\widctlpar\sa160\sl252\slmult1\tx2244 D. CSU/DSU\par
+\b Ans =  D. CSU/DSU\tab\par
+
+\pard\widctlpar\sa160\sl252\slmult1\b0 18- Your Cisco IOS router is acting as a DHCP server. Which command will display the addresses that have been handed out to clients on the LAN? \par
+A. show ip dhcp assignments \par
+B. show ip dhcp address \par
+C. show ip dhcp conflicts \par
+D. show ip dhcp bindings \par
+E. show ip dhcp pool\par
+\b ANS= D. show ip dhcp bindings \par
+\b0 19- Which of the following comands would you use to enable EIGRP only on those interfaces with an IP address from 10.1.1.0 through 10.1.1.63? \par
+A. network 10.1.1.0 0.0.0.63 \par
+B. network 10.1.1.0/63 \par
+C. router eigrp 10.1.1.0 0.0.0.63 \par
+D. network 10.0.0.0 0.0.0.255\par
+\b Ans = A. network 10.1.1.0 0.0.0.63 \par
+20\b0\fs22  \b\fs24 20-R3 has a static route configured that points toward the service provider. What command could you use to have R3 advertise an OSPFv3 default route to the internal network, regardless of whether R3 had its default static route? \par
+\b0 A. The decision to advertise a default route depends on the static route always being present on R3. \par
+B. The default behavior is to redistribute any default IPv6 routes into OSPFv3, so no action is required. \par
+C. Each of the other routers needs a static default route that leads to R3. \par
+D. Use the command default-information originate always in interface mode for G1/0 on R3. \par
+\b Ans =  E. Have R3 use the command default-information originate always in OSPFv3 router configuration mode.\par
+21- You are configurng dynamic NAT on your Cisco IOS router. Which command is used to verify the interfaces that are being used as the outside interface and the inside interface? \par
+\b0 A. show interfaces \par
+B. show ip route \par
+C. show ip nat translations \par
+D. show ip interface brief \par
+E. show ip interface \par
+F. show ip nat statistics\par
+\b Ans =  E. show ip interface \par
+22- When using the \ldblquote show EtherChannel summary \ldblquote command, what does the \ldblquote u \ldblquote flag signify? \par
+\b0 A. Waiting to be aggregated \par
+B. Suspended \par
+C. In use \par
+D. Unsuitable for bundling\par
+\b Ans=  D. Unsuitable for bundling\par
+23- Which command could you enter to encrypt passwords? \par
+\b0 A. enable secret \par
+B. username \{username\} secret \{password\} \par
+C. service password-encryption \par
+D. All of the above \par
+E. None of the above\par
+\b Ans=   D. All of the above \par
+24- You are setting up a Cisco IOS router as a DHCP server. Which command is used to identify the IPv4 addresses that will be in the DHCP pool? \par
+\b0 A. network \par
+B. dns-server \par
+C. default-router \par
+D. ip dhcp excluded-address \par
+\b Ans =  A. network\par
+25- Which of the following statements are true regarding the processing of ACLs that have been applied to router interfaces? (Choose two) \par
+\b0 A. Inbound ACLs will be processed before the routing table lookup occurs \par
+B. Inbound ACLs will be processed after the routing table lookup has occurred \par
+C. Outbound ACLs will be processed after the routing table lookup has occurred \par
+D. Outbound ACLs will be procesed before the routing table lookup occurs\par
+\b ANS=a and c\par
+26- imagine you configured OSPFv2 in a small lab network. Which of the following answers list a condition that could keep the routers in your lab from learning all the routes to all the IPv4 routes in your small lab network? (Choose two) \par
+\b0 A. An ACL could be blocking router advertisements. \par
+B. Two neighbouring routers that connect to the same link have been configured with the same OSPF area and with the same IPv4 subnet mask. \par
+C. Any physical layer problem that would prevent two neighbouring routers from being able to ping each others IPv4 addresses in the subnet that exists between the two routers.\par
+ D. Two neighboring routers that connect to the same link have been configured with\par
+\b Ans =A and c\par
+26- imagine you configured OSPFv2 in a small lab network. Which of the following answers list a condition that could keep the routers in your lab from learning all the routes to all the IPv4 routes in your small lab network? (Choose two) \par
+\b0 A. An ACL could be blocking router advertisements. \par
+B. Two neighbouring routers that connect to the same link have been configured with the same OSPF area and with the same IPv4 subnet mask. \par
+C. Any physical layer problem that would prevent two neighbouring routers from being able to ping each others IPv4 addresses in the subnet that exists between the two routers. \par
+D. Two neighboring routers that connect to the same link have been configured with\par
+\b Ans=a and d\par
+28- Which IPv6 prefix will the typical enterprise network receive from the service provider? \par
+\b0 A. /52 \par
+B. /56 \par
+C. /64 \par
+D. /32 \par
+E. /48 \par
+F. /60\par
+\b Ans=/48\par
+29- How should be configured a switch so that it could be accessed remotely? \par
+\b0 A. Assign a password and privilege level \par
+B. Apply the access control list, or ACL, to the virtual type terminal, or vty, lines \par
+C. Configure a gateway for the switch \par
+D. Generate a certificate\par
+\b Ans= C. Configure a gateway for the switch \par
+30-Refer to the exhibit. A network technician is asked to design a small network with redundancy. The exhibit represents this design, with all hosts configured in the same VLAN. What conclusions can be made about this design? \par
+\b0 A. This design will function as intended. \par
+B. Spanning-tree will need to be used. \par
+C. The router will not accept the addressing scheme. \par
+D. The connection between switches should be a trunk. \par
+E. The router interfaces must be encapsulated with the 802.1Q protocol.\par
+\b Ans-  B. Spanning-tree will need to be used. \kerning0\b0\f1\fs22\lang9\par
+}
+ 
